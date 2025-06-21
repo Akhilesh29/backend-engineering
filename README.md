@@ -181,4 +181,3 @@ flowchart LR
 
 ---
 
-> Copy the diagram code above into your README (with Mermaid support) to visualize your scalable backend architecture!  the
