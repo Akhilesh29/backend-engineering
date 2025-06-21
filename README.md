@@ -1,4 +1,4 @@
-# Scalable Backend Engineering Architecture
+# Backend Engineering Architecture
 
 ```mermaid
 flowchart TD
@@ -101,25 +101,4 @@ flowchart TD
 
 ---
 
-## How It Works
 
-- **Client Layer:** Users interact via web, mobile, or third-party integrations.
-- **API Gateway:** Central entry point for all requests, handling routing, authentication, and rate limiting.
-- **Backend Services Layer:** Composed of microservices (e.g., user, product, order, notification, authentication), each responsible for a specific domain.
-- **Data Layer:** Includes databases (SQL/NoSQL), caching for speed, blob storage for files, message queues for async processing, and search engines for advanced queries.
-- **Observability & Ops:** Monitoring, logging, and tracing for visibility; CI/CD for automated deployments; container orchestration (like Kubernetes) for scaling; service mesh for secure, reliable service-to-service communication.
-
----
-
-## How to Scale
-
-- **Horizontally scale** services and databases using container orchestration (Kubernetes).
-- **Use caching** to reduce database load and improve response times.
-- **Leverage message queues** for asynchronous, decoupled processing.
-- **Implement CI/CD pipelines** for rapid, reliable deployments.
-- **Monitor and log** everything for proactive issue detection and resolution.
-- **Adopt a microservices architecture** to independently scale and deploy components.
-
----
-
-> Copy the diagram code above into your README (with Mermaid support) to visualize your scalable backend architecture! 
