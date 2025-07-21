@@ -149,7 +149,7 @@ flowchart LR
 
 ## Scaling Summary Flow
 
-1. User traffic is distributed by a load balancer.
+1. User traffic is distributed by a load balancer.--> main objective of load balancer
 2. API Gateway routes requests to appropriate microservices.
 3. Microservices use cache and database clusters for fast, reliable data access.
 4. Heavy or async tasks are sent to message queues and processed by worker pools.
